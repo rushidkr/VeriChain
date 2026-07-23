@@ -1,0 +1,61 @@
+# Virtual Environments & Python Cache
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDEs, OS, & Editor configs (which can contain local keys or paths)
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Sensitive Environment Configurations & Secrets
+*.env
+*.env.*
+!*.env.example
+secrets/
+*secret*
+credentials*
+*private*
+
+# Cryptographic Keys & Certificates
+*.pem
+*.key
+*.der
+*.jks
+*.p12
+*.pfx
+*.pub
+*.crt
+*.csr
+
+# Local Database Files & Cache
+*.db
+*.sqlite
+*.sql
+verichain-backend/target/
+
+# Node.js build & dependency outputs
+node_modules/
+dist/
+verichain-frontend/node_modules/
+verichain-frontend/dist/
+
+# Logs & Diagnostic Reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+verichain-backend/*.log
+verichain-backend/HELP.md
+
+# Sample and testing artifacts (prevent committing test documents)
+sample_certificate.pdf
+sample_certificate_qr.png
+sample_certificate_text.png
+tesseract_path.txt
+
